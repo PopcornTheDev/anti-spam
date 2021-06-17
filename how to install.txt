@@ -1,0 +1,11 @@
+Requirements: 
+Nodejs V12
+
+
+Steps on how to install: 
+
+1. Log into https://discord.com/developers/applications
+2. Create a new application name it
+3. Go to the bot tab and click the add bot button
+4. Copy the token of the bot
+5. Fill out the config

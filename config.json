@@ -1,0 +1,10 @@
+{
+    "main": {
+    "token": "go to https://discord.com/developers/applications to get your token"
+    },
+
+    "anti spam": {
+        "enabled": true,
+        "limit": "3"
+    }
+}
