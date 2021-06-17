@@ -21,7 +21,11 @@ exports.run = async (client, message) => {
             }, 5000);
             if (msgCount1 > config["anti spam"].limit) {
                 message.delete()
-                message.channel.send(`Stop refrain from spamming in this discord, It could result in a warn`)
+                message.channel.send(`Stop refrain from spamming in this discord, It could result in a warn`).then(msg => {
+                    setTimeout(() => {
+                    msg.delete()    
+                    }, 5000);
+                })
             };
         } else {
             usersMap.set(message.author.id, {
